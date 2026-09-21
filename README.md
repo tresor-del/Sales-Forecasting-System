@@ -95,19 +95,16 @@ The data is split chronologically into training, validation, and evaluation peri
 
 ### Actual Versus Predicted Sales
 
-Add the evaluation chart here:
 
 ![Actual versus predicted sales](assets/predictions_vs_actual.png)
 
 ### Feature Importance
 
-Add the feature importance chart here:
 
 ![Feature importance](assets/feature_importance.png)
 
 ### Residual Analysis
 
-Add the residual analysis chart here:
 
 ![Residual analysis](assets/residual_analysis.png)
 
@@ -115,7 +112,6 @@ Add the residual analysis chart here:
 
 The trained model is applied to the test observations. Predictions are converted back to the original sales scale with `expm1`, clipped at zero, and aggregated by date for visualization.
 
-Add the future forecast chart here:
 
 ![Future sales forecast](assets/future_forecast.png)
 
