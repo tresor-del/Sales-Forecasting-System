@@ -113,7 +113,7 @@ The data is split chronologically into training, validation, and evaluation peri
 The trained model is applied to the test observations. Predictions are converted back to the original sales scale with `expm1`, clipped at zero, and aggregated by date for visualization.
 
 
-![Future sales forecast](assets/future_forecast.png)
+![Future sales forecast](assets/fututre_forecast.png)
 
 ## How to Run the Project
 
